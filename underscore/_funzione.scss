@@ -2,6 +2,6 @@
 //Consideriamo che 1rem = 16px.
 
 @function calcolo($pixel) {
-    $rem-size: calc($pixel / 16) + rem; 
+    $rem-size: calc($pixel / 16) * 1rem; 
     @return $rem-size;
 }
